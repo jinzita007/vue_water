@@ -15,6 +15,7 @@
 </template>
 
 <script>
+/* 轮播图数据 */
 const baseList = [
   {
     url: "javascript:",
@@ -29,6 +30,9 @@ const baseList = [
     img: "https://static.vux.li/demo/3.jpg"
   }
 ];
+/* tab选项卡数据 */
+const list = () => ['桶装水', '瓶装水', '饮水机', '热销']
+
 import { Loading, Group, Tab, TabItem,Sticky, Divider, XButton,Swiper,SwiperItem} from "vux";
 export default {
   components: {
